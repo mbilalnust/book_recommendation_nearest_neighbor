@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments and credentials
+.env
+.env.*
+.envrc
+.venv
+venv/
+*.pem
+*.p12
+*.keystore
+credentials.json
+secrets.yaml
+service-account*.json
+config.ini
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data dumps and local artifacts
+*.csv
+*.tsv
+*.parquet
+*.sqlite
+*.db
+artifacts/
+data/
+
+# OS
+.DS_Store
+._*
+Thumbs.db
